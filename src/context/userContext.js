@@ -3,7 +3,7 @@ import React, { createContext, useState } from 'react'
 const UserContext = createContext()
 
 const Wrapper = (props) => {
-  const [changeGreeting, setChangeGreeting] = useState('')
+  const [changeGreeting, setChangeGreeting] = useState('Hello')
   const greeting = { changeGreeting, setChangeGreeting }
 
   return (
